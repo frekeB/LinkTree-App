@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      boxShadow:{
+        custom: "16px 14px 0px -3px rgba(0,0,0,0.75)"        
+      }
+    },
   },
   plugins: [require("@tailwindcss/aspect-ratio")], 
 }
